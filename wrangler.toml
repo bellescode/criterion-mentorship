@@ -1,0 +1,16 @@
+name = "criterion-mentorship"
+main = "index.js"
+compatibility_date = "2026-06-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "criterion-mentorship-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[triggers]
+crons = ["0 13 * * *"]
+
+[vars]
+SITE_NAME = "Criterion Partners Mentorship"
+SITE_URL = "https://REPLACE_WITH_YOUR_WORKER_URL"
+ADMIN_EMAIL = "bernadette@criterion-partners.com"
