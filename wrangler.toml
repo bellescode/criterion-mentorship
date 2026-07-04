@@ -13,4 +13,4 @@ crons = ["0 13 * * *"]
 [vars]
 SITE_NAME = "Criterion Partners Mentorship"
 SITE_URL = "https://mentorship.criterion-partners.com"
-ADMIN_EMAIL = "bernadette@criterion-partners.com"
+ADMIN_EMAIL = "bernadette@criterion-partners.com" 
