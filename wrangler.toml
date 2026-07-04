@@ -5,12 +5,12 @@ compatibility_date = "2026-06-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "criterion-mentorship-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "b70cf7bd-4c51-463d-b98d-82f2e639baf2"
 
 [triggers]
 crons = ["0 13 * * *"]
 
 [vars]
 SITE_NAME = "Criterion Partners Mentorship"
-SITE_URL = "https://REPLACE_WITH_YOUR_WORKER_URL"
+SITE_URL = "https://mentorship.criterion-partners.com"
 ADMIN_EMAIL = "bernadette@criterion-partners.com"
